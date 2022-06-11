@@ -1,4 +1,4 @@
-# How can i create Postges with custom collation on docker?
+# How to create Postgres container with Custom collation on docker?
 
 > You don't need to do this if the language you want to use already exists in the operating system used for the container. You can create a container using the official image and use the commands below to check the available languages.
 > ```PowerShell
@@ -9,7 +9,8 @@
 > locale -a
 > ```
 
-### If the language you want to use is not already included in the operating system used for the container, let's continue.
+#### If the language you want to use is not already included in the operating system used for the container,
+## Let's go!
 1. Extend a latest official version of postgres image with your custom language using `Dockerfile`.
 
 ``` Dockerfile
